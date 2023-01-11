@@ -1,0 +1,100 @@
+body {
+    /* background-image: url(img/starrynight.jpg); */
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    top: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(7, 178, 90);
+    background-color: rgb(10, 9, 9);
+}
+
+ul > li {
+    list-style: none;
+    /* margin-left: 100px; */
+    /* margin-right: auto; */
+    text-align: left;
+    /* margin-top: 10px; */
+    /*margin-bottom: 10px;*/
+    margin: 10px auto;
+    padding: 0 30px;
+}
+
+/* need to configure #tribute-info */
+
+
+
+#main {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    top: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(7, 178, 90);
+    background-color: rgb(10, 9, 9);
+   
+}
+#img-div, #image {
+    margin: 20px auto;
+
+}
+#image {
+    width: 600px;
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+#img-caption {
+    text-align: center;
+    
+}
+
+#tribute-info {
+    margin: 10px;
+    padding: 10px;
+}
+
+#tribute-link {
+    text-decoration: none;
+}
+#tribute-link, #link:hover {
+    text-decoration: none;
+    color:aqua;
+    
+}
+
+#tribute-link:before {
+    color: rgb(7, 178, 90);
+    text-decoration: none;
+}
+
+#tribute-link:after {
+    color: rgb(7, 178, 90);
+    text-decoration: none;
+}
+
+#tribute-link:visited {
+    color: rgb(7, 178, 90);
+    text-decoration: none;
+}
+
+#tribute-quote {
+    text-align: center;
+}
+
+h3 {
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+}
