@@ -10,7 +10,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
     text-align: center;
-    color: rgb(7, 178, 90);
+    color: silver;
     background-color: rgb(10, 9, 9);
 }
 
@@ -40,11 +40,11 @@ ul > li {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
     text-align: center;
-    color: rgb(7, 178, 90);
+    color: silver;
     background-color: rgb(10, 9, 9);
    
 }
-#img-div, #image {
+#img-div {
     margin: 20px auto;
 
 }
@@ -53,10 +53,12 @@ ul > li {
     height: auto;
     max-width: 100%;
     display: block;
+    margin: 10px auto;
 }
 
 #img-caption {
     text-align: center;
+    margin: 10px auto;
     
 }
 
@@ -68,27 +70,25 @@ ul > li {
 #tribute-link {
     text-decoration: none;
 }
-#tribute-link, #link:hover {
+
+#tribute-list-link {
+    text-decoration: none;
+}
+#tribute-link:hover, #tribute-list-link:hover {
     text-decoration: none;
     color:aqua;
     
 }
 
-#tribute-link:before {
-    color: rgb(7, 178, 90);
+/* #tribute-link:visited {
     text-decoration: none;
+    color: silver;
 }
 
-#tribute-link:after {
-    color: rgb(7, 178, 90);
+#tribute-list-link:visited {
     text-decoration: none;
-}
-
-#tribute-link:visited {
-    color: rgb(7, 178, 90);
-    text-decoration: none;
-}
-
+    color: silver;
+} */
 #tribute-quote {
     text-align: center;
 }
